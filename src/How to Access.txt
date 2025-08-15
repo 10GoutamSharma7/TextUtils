@@ -1,0 +1,4 @@
+First open this Repository in Code Editor
+#STEP 1: Run in termminal, npm i (install npm)
+#STEP 2: install this package, npm install react-icons bootstrap
+#STEP 3: Run, npm run start
