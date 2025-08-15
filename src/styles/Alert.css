@@ -1,0 +1,53 @@
+/* Base styling for the alert */
+.custom-alert {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.95;
+}
+
+/* Success alert */
+.custom-alert.success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border: 1px solid #badbcc;
+}
+
+/* Error alert */
+.custom-alert.error {
+  background-color: #f8d7da;
+  color: #842029;
+  border: 1px solid #f5c2c7;
+}
+
+/* Info alert */
+.custom-alert.info {
+  background-color: #cff4fc;
+  color: #055160;
+  border: 1px solid #b6effb;
+}
+
+/* Dark mode support */
+body.dark-mode .custom-alert.success {
+  background-color: #22543d;
+  color: #d1f0e7;
+  border: 1px solid #1e4533;
+}
+
+body.dark-mode .custom-alert.error {
+  background-color: #742a2a;
+  color: #f7c8c8;
+  border: 1px solid #5c1f1f;
+}
+
+body.dark-mode .custom-alert.info {
+  background-color: #1b4b57;
+  color: #cce8f0;
+  border: 1px solid #163c44;
+}

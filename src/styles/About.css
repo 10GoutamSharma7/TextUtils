@@ -1,0 +1,108 @@
+/* Import cute Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.about-container{
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+  background-color: #fffaf0;
+  color: #444;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.about-title{
+  text-align: center;
+  color: #be00fe;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-description{
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.accordion-button{
+  background-color: #ffe4e1;
+  color: #444;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:hover{
+  background-color: #ffd6d1;
+  color: #be00fe;
+}
+
+.accordion-button:focus{
+  box-shadow: none;
+}
+
+.developer-section{
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #fff0f5;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.developer-section h2{
+  text-align: center;
+  color: #be00fe;
+  margin-bottom: 1.5rem;
+}
+
+.developer-info{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.developer-image img{
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #be00fe;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.developer-image img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 111, 145, 0.5);
+}
+
+.developer-text{
+  flex: 1;
+  min-width: 250px;
+}
+
+.developer-text p{
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.developer-contact{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.6rem;
+  justify-content: flex-start;
+}
+
+.developer-contact a{
+  color: #be00fe;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.developer-contact a:hover{
+  transform: scale(1.2);
+  color: #be00fe;
+}

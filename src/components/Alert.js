@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Alert.css';
 
 export default function Alert(props) {
   return (
-    <div style={{height:'50px'}}>
-    {props.alert && <div class="alert alert-success text-center" role="alert">
-        <strong>{props.alert.type}</strong>: {props.alert.msg}
-    </div>}
+    <div style={{ height: '60px', marginTop: '1rem' }}>
+      {props.alert && (
+        <div className={`custom-alert ${props.alert.type}`} role="alert">
+          <strong>{props.alert.type.toUpperCase()}</strong>: {props.alert.msg}
+        </div>
+      )}
     </div>
-  )
+  );
 }

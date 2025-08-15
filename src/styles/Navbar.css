@@ -1,0 +1,46 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 0 0 12px 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.custom-navbar .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+.form-check-input {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Dark mode tweaks */
+.navbar-dark .nav-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .custom-navbar .nav-link {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
