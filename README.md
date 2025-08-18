@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#Before running this Repository you may need to install these following packages
+- npm i prop-types
+- npm i react-icons
+  
 ## Available Scripts
 
 In the project directory, you can run:
