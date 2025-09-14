@@ -1,74 +1,135 @@
-# Getting Started with Create React App
+# ✅ TextUtils App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TextUtils is a powerful, easy-to-use web application designed to help users manipulate, analyze, and improve their text effortlessly. Whether you need simple text transformations or advanced utilities like text-to-speech and voice recording, TextUtils has you covered.
 
-#Before running this Repository you may need to install these following packages
-- npm i prop-types
-- npm i react-icons
-  
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Images
 
-### `npm start`
+Light Mode
+<img width="1890" height="1079" alt="Screenshot 2025-09-14 180052" src="https://github.com/user-attachments/assets/4bc8d734-28ad-482b-ab98-5181ac7c9462" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dark Mode
+<img width="1889" height="1079" alt="Screenshot 2025-09-14 180026" src="https://github.com/user-attachments/assets/fe33ffd0-2de8-44bc-b057-fe6af8c64db6" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Preview
+<img width="1178" height="1072" alt="Screenshot 2025-09-14 180111" src="https://github.com/user-attachments/assets/c3f48fea-d24c-454f-ad83-dbaf57ff2b64" />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Project URL
 
-### `npm run eject`
+Once running locally, the application is accessible at:  
+👉 [http://localhost:3000/](http://localhost:3000/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ✅ Text Manipulation
+- **Uppercase Conversion**: Transform all text to uppercase letters.
+- **Lowercase Conversion**: Convert all text to lowercase letters.
+- **Capitalize Words**: Capitalize the first letter of every word.
+- **Remove Extra Spaces**: Eliminate multiple consecutive spaces.
+- **Remove Numbers**: Strip out all numeric characters from the text.
+- **Reverse Text**: Reverse the entire text content.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### ✅ Text Utilities
+- **Copy Text**: Copy the current text content to clipboard.
+- **Copy Summary**: Copy text statistics and summary to clipboard.
+- **Share via Email**: Share the text content via your email client.
+- **Read Aloud**: Convert text into speech using the browser’s text-to-speech feature.
+- **Start Voice Recording 🎤**: Record your voice directly into the text area.
+- **Clear Text**: Clear the text area completely.
+- **Download Text**: Save the text content as a `.txt` file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🎨 Text Editor Controls
+- **Font Size Control**: Adjust text font size dynamically via a slider.
+- **Font Style Selection**: Choose from multiple font styles (e.g., Chalk).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📊 Text Summary Section
+Provides a dynamic summary of the input text, showing:
+- Total Words
+- Total Characters
+- Letter Count
+- Numbers Count
+- Spaces Count
+- Punctuation Count
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🔍 Preview Section
+- Keyword Highlighting
+- Spell Check Suggestions
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🧱 Template System
+- Select predefined templates from a dropdown to quickly apply common text patterns or structures.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⚡ Installation
 
-### Deployment
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/TextUtils.git
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Navigate into the project folder:
+    ```bash
+    cd TextUtils
+    ```
 
-### `npm run build` fails to minify
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## ⚠️ Note
+
+If you encounter an error like:
+
+Module not found: Can't resolve 'react-icons/fa'
+
+Install missing dependencies by running:
+
+npm install react-icons
+
+---
+
+## 🚀 Running Locally
+
+Start the development server:
+```bash
+npm start
+
+---
+
+## 📚 Tech Stack
+
+React
+
+JavaScript
+
+CSS
+
+react-icons (for icons)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
